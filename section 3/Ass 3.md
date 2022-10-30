@@ -15,7 +15,7 @@ public class Myproject {
           int num1=input.nextInt();
            int num2=input.nextInt();
            int num3=input.nextInt();
-          if((num1 +num2) >num3 ||(num1 +num3) >num2||(num3 +num2) >num1  )
+          if((num1 +num2) >num3 &&(num1 +num3) >num2&& (num3 +num2) >num1  )
           {
              System.out.println("The input is valid");
              int perimeterTriangle=num1+num2+num3;
@@ -27,6 +27,8 @@ public class Myproject {
           }
     }
 }
+
+
 
 
 
